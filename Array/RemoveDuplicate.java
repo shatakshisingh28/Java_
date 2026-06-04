@@ -1,11 +1,7 @@
-// public class RemoveDuplicate {
-    
-// }
 import java.util.*;
 
-// Class to hold the solution logic
 class Dup {
-    // Function to remove duplicates from sorted array in-place
+    
     public int removeDuplicates(int[] nums) {
         if (nums.length == 0)
             return 0;
@@ -27,13 +23,13 @@ public class RemoveDuplicate {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Input size of array
+       
         System.out.print("Enter size of array: ");
         int n = sc.nextInt();
 
         int[] nums = new int[n];
 
-        // Input array elements
+        
         System.out.println("Enter sorted array elements:");
         for (int i = 0; i < n; i++) {
             nums[i] = sc.nextInt();
